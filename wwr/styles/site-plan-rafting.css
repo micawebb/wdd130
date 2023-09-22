@@ -1,6 +1,6 @@
-@import url(https://fonts.google.com/specimen/Roboto);
-@import url(https://fonts.google.com/specimen/Alegreya+Sans+SC?query=alegreya+sans);
-@import url(https://fonts.google.com/specimen/Raleway?query=raleway);
+@import url('https://fonts.google.com/specimen/Roboto');
+@import url('https://fonts.google.com/specimen/Alegreya+Sans+SC?query=alegreya+sans');
+@import url('https://fonts.google.com/specimen/Raleway?query=raleway');
 
 :root { --primary-color:#293241 ;
         --secondary-color:#E0FBFC; 
@@ -8,8 +8,8 @@
         --accent2-color:#EE6C4D;
         --accent3-color:#98C1D9;
 
-        --heading-font: 'roboto', serif;
-        --paragraph-font:'raleway', serif;
+        --heading-font: 'https://fonts.google.com/specimen/Roboto', Roboto;
+        --paragraph-font:'https://fonts.google.com/specimen/Raleway?query=raleway', raleway;
 
         --nav-background-color:#98C1D9;
         --nav-link-color:#EE6C4D;
