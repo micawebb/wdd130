@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,100&family=Nunito:wght@300&family=Raleway&family=Roboto:wght@300&display=swap');
+
+
+:root { --primary-color:#293241;
+        --secondary-color:#E0FBFC; 
+        --accent1-color:#3D5A80;
+        --accent2-color:#EE6C4D;
+        --accent3-color:#98C1D9;
+
+        --heading-font: 'Roboto', serif;
+        --paragraph-font:'raleway',serif;
+
+        --nav-background-color:#98C1D9;
+        --nav-link-color:#EE6C4D;
+        --nav-hover-link-color:#3D5A80;
+        --nav-hover-background-color:#E0FBFC;
+}
+
+
+body {
+    font-family: 'Roboto';
+    max-width: 960px;
+    padding:20px;
+}
+
+div {
+    font-family: var(--heading-font),serif;
+    color: var(--primary-color);
+    position: relative;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    position:absolute
+
+}
+
+article {
+    position:absolute
+}
+
+
+header {
+    padding: 20px;
+    background-color: var(--accent3-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
