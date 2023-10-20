@@ -23,43 +23,88 @@ body {
     padding:20px;
 }
 
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    margin:1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo img { 
+    margin: 1rem 0.25rem 0 1rem;
+    width: 150px;
+    height: auto;
+
+
+}
+
 div {
     font-family: var(--heading-font),serif;
     color: var(--primary-color);
-    position: relative;
+    position: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.hero img {
-    display: block;
-    width: 100%;
+.hero {
+    position: flex;
+    justify-content: center;
+}
+
+.hero box {
+    display: flex;
+    align-items: center;
+    position:flex;
+    width: 150px;
     height: auto;
-
+    border: 1px solid steelblue;
+    padding: 2px;
+    margin: 0 0 1rem 1rem;
 }
+
+.hero img{
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    position: flex-wrap;
+    margin: 0 0 1rem 1rem;
+}
+
 
 h1 {
-    position:absolute
-
-}
-
-article {
-    position:absolute
-}
-
-
-header {
+    display: grid;
+    align-items: center;
+    font-family: var(--heading-font),serif;
     padding: 20px;
-    background-color: var(--accent3-color);
+
 }
+
+
+h2 {
+    display: grid;
+    align-items: center;
+    font-family: var(--heading-font),serif;
+    padding: 20px;
+
+}
+
 
 p {
     padding: 25px;
 }
 
 nav {
-    background-color: var(--nav-background-color);
+    background-color: var(--secondary-color);
     font-size: 1.2rem;
     display: flex;
+    align-items: stretch;
 }
 
 nav a {
@@ -67,6 +112,7 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    display:flex
 }
 
 nav a:link, nav a:visited {
