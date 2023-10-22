@@ -40,6 +40,7 @@ p {
 
 header {
   background-color: #e0fbfc;
+  grid-template-rows: 3f 1f 1f 1f 1f;
 }
 
 nav a:link,
@@ -66,12 +67,14 @@ nav a:active {
 
 .hero {
   position: relative;
+  margin-bottom: 22px;
 }
 
 .hero img {
   display: block;
   width: 100%;
   height: auto;
+  position: absolute;
 }
 
 h1 {
