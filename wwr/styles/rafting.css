@@ -21,6 +21,8 @@
   line-height: 1.4;
   color: #293241;
   width: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1,
@@ -34,12 +36,14 @@ h2 {
 p {
   font-family: "raleway", sans-serif;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 /* HEADER */
 
 header {
   background-color: #e0fbfc;
+  margin-bottom: 20px;
   grid-template-rows: 3f 1f 1f 1f 1f;
 }
 
@@ -66,33 +70,47 @@ nav a:active {
 /* div clas="hero" */
 
 .hero {
-  position: relative;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .hero img {
   display: block;
   width: 100%;
   height: auto;
-  position: absolute;
+  margin-bottom: 20px;
 }
 
 h1 {
-  position: absolute;
+  color: #fff;
+  background-color: #2932413d;
+  margin-bottom: 20px;
 }
 
 article {
-  position: absolute;
   background-color: rgba(152, 193, 217, 0.561);
+  margin-bottom: 50px;
 }
 
 article p {
-  color: #293241;
+  color: #75777a;
 }
 
 .hero-img2 {
   float: right;
+  height: 10px;
+  width: auto;
+  margin-bottom: 25px;
 }
+
+/*HISTORY SECTION*/
+
+.history {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* section {
+} */
 
 /* FOOTER */
 .social-links a {
